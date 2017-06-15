@@ -1,6 +1,6 @@
 # Official MicroLua User Manual
 
-MicroLua is a luascript for ThePowderToy which adds Lua proccessors to the game and can be saved !
+MicroLua is a luascript for ThePowderToy which adds Lua proccessors to the game that can be saved !
 
 ![SevSeg Demo](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/MicroLua%201.gif "SevenSegment display driven by a MicroLua Proccessor")
 
@@ -16,14 +16,14 @@ with all the miscellaneous functions like `loadstring`, `load`, `os.execute`, `o
 3. **Instructions Qouta:** This way, the proccessor is limited to not execute over than 400000 instruction per tick, in other words a proccessors with `while true do end` code wont freeze the game.
 
 ## Installation Guide:
-1. Install The Script Manager by openning the lua console (press `~`) and type:
+1. Install The Script Manager by openning the lua console either by pressing `~` or by clicking on the C button in the top-right corner, and type:
 ```lua
 tpt.getscript(1,"autorun.lua",1)
 ```
 
 2. Open the script manager by clicking the button on the right with "Lua" on it.
 3. Click on 'Script Folder'.
-4. Open https://pastebin.com/Jt5eE4aP in your browser and click on "download", save it into the Scripts folder we opened before.
+4. Open https://pastebin.com/Jt5eE4aP in your browser and click on "download", save it into the Scripts folder you opened before.
 5. In tpt check the MicroLua checkbox and press "Done".
 6. Enjoy !
 
@@ -71,3 +71,12 @@ tpt.getscript(1,"autorun.lua",1)
 
 ## Flashing a LMPU:
 ![Flashing Tutorial Gif](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/MPU%20Flashing.gif "A gif showing how to flash a proccessor")
+1. Locate your LMRC chip location.
+2. Press `D` to enable debug view and notice the part id of the LMRC (The number shown in `#xxxx`).
+2. Open the Lua Console either by pressing `~` or by clicking on the C button in the top-right corner.
+3. Type the following code and press enter (Replace index with your LMRC id, Replace filename with your Lua code file (In tpt folder))
+```lua
+micro.flushMRC(index,filename)
+```
+4. Unpause the game (Save and reload the game if you had it unpause so the LMPU reboots).
+5. Enjoy !
