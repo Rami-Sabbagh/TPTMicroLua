@@ -48,7 +48,7 @@ tpt.getscript(1,"autorun.lua",1)
 * `tick()`: Waits for the next powdertoy tick, and resets the qoute counter.
 * `sleep(n)`: Sleeps for `n` number of powdertoy ticks.
 * `spark(pin)`: Sparks a pin with the given id (The pin's TMP property value, press `d` for debug view).
-* `isSparked(pin)`: Returns if a pin is sparked or not.
+* `bool = isSparked(pin)`: Returns if a pin is sparked or not.
 
 ### Standard Lua Libraries:
 
