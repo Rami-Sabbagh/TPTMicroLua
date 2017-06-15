@@ -4,7 +4,7 @@ MicroLua is a luascript for ThePowderToy which adds Lua proccessors to the game 
 
 
 ## Installation Guide:
-1. Install The Script Manager by openning the lua console (press `) and type:
+1. Install The Script Manager by openning the lua console (press `~`) and type:
 ```lua
 tpt.getscript(1,"autorun.lua",1)
 ```
