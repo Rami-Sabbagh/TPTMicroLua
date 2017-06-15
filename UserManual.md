@@ -41,6 +41,8 @@ tpt.getscript(1,"autorun.lua",1)
 
 ## Proccessors Code Global Environment:
 
+**NOTE:** Calling any api functions (even the standard library) will cost a tick in powdertoy.
+
 ### MicroLua API:
 
 * `tick()`: Waits for the next powdertoy tick, and resets the qoute counter.
@@ -50,7 +52,7 @@ tpt.getscript(1,"autorun.lua",1)
 
 ### Standard Lua Libraries:
 
-* `pairs`, `ipairs`, `next`, `setmetatable`, `rawget`, `rawset`, `rawequal`, `_VERSION`, `pcall`, `xpcall`, `print`, `select` , `type`, `tostring`, `tonumber`, `unpack`, `error`, `assert`
+* `pairs`, `ipairs`, `next`, `setmetatable`, `rawget`, `rawset`, `rawequal`, `pcall`, `xpcall`, `print`, `select` , `type`, `tostring`, `tonumber`, `unpack`, `error`, `assert`, `_VERSION`
 
 * **Table**:
 `table.insert`, `table.remove`, `table.maxn`, `table.sort`, `table.concat`
