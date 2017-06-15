@@ -7,17 +7,12 @@ MicroLua is a luascript for ThePowderToy which adds Lua proccessors to the game 
 
 ## Elements:
 
-* ![LMPU](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/LMPU.png "LMPU"):
-  - Stands for: *Lua Micro Proccessing Unit*
+![LMPU](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/LMPU.png "LMPU") : *Lua Micro Proccessing Unit*
 
-* ![LCBL](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/LCBL.png "LCBL"):
-  - Stands for: *Lua Cable*
+![LCBL](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/LCBL.png "LCBL") : *Lua Cable*
 
-* ![LMRC](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/LMRC.png "LMRC"):
-  - Stands for: *Lua Micro Read Chip*
+![LMRC](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/LMRC.png "LMRC") : *Lua Micro Read Chip* 
 
-* ![LROM](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/LROM.png "LROM"):
-  - Stands for: *Lua Read Only Memory*
+![LROM](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/LROM.png "LROM") : *Lua Read Only Memory*
 
-* ![LPIN](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/LPIN.png "LPIN"):
-  - Stands for: *Lua PIN*
+![LPIN](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/LPIN.png "LPIN") : *Lua PIN*
