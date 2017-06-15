@@ -38,3 +38,30 @@ tpt.getscript(1,"autorun.lua",1)
 ### ![LROM](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/LROM.png "LROM") Lua Read Only Memory:
 
 ### ![LPIN](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/LPIN.png "LPIN") Lua PIN:
+
+## Proccessors Code Global Environment:
+
+### MicroLua API:
+
+* **tick()**: Waits for the next powdertoy tick, and resets the qoute counter.
+* **spark(pin)**: Sparks a pin with the given id (The pin's TMP property value, press `d` for debug view).
+* **isSparked(pin)**: Returns if a pin is sparked or not.
+
+### Standard Lua Libraries:
+
+* `pairs`, `ipairs`, `next`, `setmetatable`, `rawget`, `rawset`, `rawequal`, `_VERSION`, `pcall`, `xpcall`, `print`, `select` , `type`, `tostring`, `tonumber`, `unpack`, `error`, `assert`
+
+* **Table**:
+ - `table.insert`, `table.remove`, `table.maxn`, `table.sort`, `table.concat`
+
+* **Math:**
+ - `math.abs`, `math.fmod`, `math.floor`, `math.ceil`, `math.min`, `math.max`, `math.modf`, `math.sqrt`, `math.pow`, `math.exp`, `math.log`, `math.log10`, `math.log`, `math.frexp`, `math.ldexp`, `math.deg`, `math.rad`, `math.sin`, `math.cos`, `math.tan`, `math.asin`, `math.acos`, `math.atan`, `math.random`, `math.randomseed`, `math.pi`, `math.huge`
+ 
+ * **String:**
+ - `string.len`, `string.sub`, `string.rep`, `string.upper`, `string.lower`, `string.reverse`, `string.byte`, `string.char`, `string.format`, `string.find`, `string.gmatch`, `string.gsub`
+ 
+ * **Coroutine:**
+ - `coroutine.create`, `coroutine.resume`, `coroutine.running`, `coroutine.yield`, `coroutine.status`, `coroutine.wrap`
+ 
+ * **OS:**
+ - `os.time`, `os.difftime`, `os.date`, `os.clock`
