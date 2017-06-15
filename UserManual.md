@@ -68,3 +68,6 @@ tpt.getscript(1,"autorun.lua",1)
  
  * **OS:**
 `os.time`, `os.difftime`, `os.date`, `os.clock`
+
+## Flashing a LMPU:
+![Flashing Tutorial Gif](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/MPU%20Flashing.gif "A gif showing how to flash a proccessor")
