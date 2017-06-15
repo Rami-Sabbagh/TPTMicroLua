@@ -41,7 +41,7 @@ tpt.getscript(1,"autorun.lua",1)
 
 ## Proccessors Code Global Environment:
 
-**NOTE:** Calling any api functions (even the standard library) will cost a tick in powdertoy.
+**NOTE:** Calling any api functions (even the standard lua library) will cost a tick in powdertoy.
 
 ### MicroLua API:
 
