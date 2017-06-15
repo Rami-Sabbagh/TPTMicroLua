@@ -4,6 +4,17 @@ MicroLua is a luascript for ThePowderToy which adds Lua proccessors to the game 
 
 ![SevSeg Demo](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/MicroLua%201.gif "SevenSegment display driven by a MicroLua Proccessor")
 
+## How much this script is safe ?
+
+The proccessors code is run in a well done Lua Sandbox, with 3 layers of protection:
+
+1. **Custom Environment:** The code in the proccessor runs with a reduced version of standard Lua library, 
+with all the miscellaneous functions like `loadstring`, `load`, `os.execute`, `os.remove`, `io.open`, ... removed.
+
+2. **Runs Inside a Coroutine:** This way the script will have more control over the proccessors code, so whenever a proccessors wants to call an API function it yields the coroutine, so the game won't freeze, and the script will know what's the proccessor is calling.
+
+3. **Instructions Qouta:** This way, the proccessor is limited to not execute over than 400000 instruction per tick, in other words a proccessors with `while true do end` code wont freeze the game.
+
 ## Installation Guide:
 1. Install The Script Manager by openning the lua console (press `~`) and type:
 ```lua
