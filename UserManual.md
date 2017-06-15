@@ -2,6 +2,7 @@
 
 MicroLua is a luascript for ThePowderToy which adds Lua proccessors to the game and can be saved !
 
+![SevSeg Demo](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/MicroLua%201.gif "SevenSegment display driven by a MicroLua Proccessor")
 
 ## Installation Guide:
 1. Install The Script Manager by openning the lua console (press `~`) and type:
