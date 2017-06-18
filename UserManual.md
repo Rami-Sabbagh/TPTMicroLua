@@ -48,13 +48,10 @@ tpt.getscript(1,"autorun.lua",1)
 * `tick()`: Waits for the next powdertoy tick, and resets the qoute counter.
 * `sleep(n)`: Sleeps for `n` number of powdertoy ticks.
 * `spark(pin)`: Sparks a pin with the given id (The pin's TMP property value, press `d` for debug view).
-
- You can also pass a table with pins numbers, to spark them at the same tick.
-
+..- You can also pass a table with pins numbers, to spark them at the same tick.
 * `bool = isSparked(pin)`: Returns if a pin is sparked or not.
 * `setColor({red,green,blue}): Sets the LMPU pixel color, values go from 0 -> 255.
-
- Can be called with no args to restore the default color.
+..- Can be called with no args to restore the default color.
 
 ### Standard Lua Libraries:
 
