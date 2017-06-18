@@ -48,7 +48,10 @@ tpt.getscript(1,"autorun.lua",1)
 * `tick()`: Waits for the next powdertoy tick, and resets the qoute counter.
 * `sleep(n)`: Sleeps for `n` number of powdertoy ticks.
 * `spark(pin)`: Sparks a pin with the given id (The pin's TMP property value, press `d` for debug view).
+- You can also pass a table with pins numbers, to spark them at the same tick.
 * `bool = isSparked(pin)`: Returns if a pin is sparked or not.
+* `setColor({red,green,blue}): Sets the LMPU pixel color, values go from 0 -> 255.
+- Can be called with no args to restore the default color.
 
 ### Standard Lua Libraries:
 
@@ -68,6 +71,9 @@ tpt.getscript(1,"autorun.lua",1)
  
  * **OS:**
 `os.time`, `os.difftime`, `os.date`, `os.clock`
+
+ * **Bit:**
+ `bit.tobit`, `bit.tohex`, `bit.bnot`, `bit.band`, `bit.bor`, `bit.bxor`, `bit.lshift`, `bit.rshift`, `bit.arshift`, `bit.rol`, `bit.rol`, `bit.ror`, `bit.bswap`
 
 ## Flashing a LMPU:
 ![Flashing Tutorial Gif](https://raw.githubusercontent.com/RamiLego4Game/TPTMicroLua/master/MPU%20Flashing.gif "A gif showing how to flash a proccessor")
