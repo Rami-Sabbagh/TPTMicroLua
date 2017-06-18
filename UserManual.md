@@ -50,6 +50,9 @@ tpt.getscript(1,"autorun.lua",1)
 * `spark(pin)`: Sparks a pin with the given id (The pin's TMP property value, press `d` for debug view).
  - You can also pass a table with pins numbers, to spark them at the same tick.
 * `bool = isSparked(pin)`: Returns if a pin is sparked or not.
+ - `bool, pid = isSparked({pinslist}}`: Returns true if all the pins are sparked, false and a pin id if any pin is not sparked.
+ - `results = isSparked({pinslist}, true)`: Returns a table with all the pin ids replace by booleans representing each one if sparked or not.
+ - `pin = isSparked()`: Checks all the MPU pins, and returns the id of the first pin it finds sparked, or false if all the pins aren't sparked.
 * `setColor({red,green,blue}): Sets the LMPU pixel color, values go from 0 -> 255.
  - Can be called with no args to restore the default color.
 
