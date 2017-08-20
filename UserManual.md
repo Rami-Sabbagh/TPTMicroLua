@@ -58,7 +58,7 @@ tpt.getscript(1,"autorun.lua",1)
 
 ### Standard Lua Libraries:
 
-* `pairs`, `ipairs`, `next`, `setmetatable`, `rawget`, `rawset`, `rawequal`, `pcall`, `xpcall`, `print`, `select` , `type`, `tostring`, `tonumber`, `unpack`, `error`, `assert`, `_VERSION`
+* `pairs`, `ipairs`, `next`, `pcall`, `xpcall`, `print`, `select` , `type`, `tostring`, `tonumber`, `unpack`, `error`, `assert`, `_VERSION`
 
 * **Table**:
 `table.insert`, `table.remove`, `table.maxn`, `table.sort`, `table.concat`
